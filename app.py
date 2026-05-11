@@ -25,10 +25,9 @@ st.markdown("""
 @st.cache_data
 def load_data():
    df = pd.read_csv("House_price.csv")
-    return df
+   return df
 
 df = load_data()
-
 # --- HEADER ---
 st.title("🏠 Real Estate Price Analytics")
 st.markdown("Enter the property details below to estimate the market value.")
