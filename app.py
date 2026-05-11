@@ -24,7 +24,7 @@ st.markdown("""
 # --- DATA LOADING ---
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\Downloads\House_price.csv")
+   df = pd.read_csv("House_price.csv")
     return df
 
 df = load_data()
